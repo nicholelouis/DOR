@@ -1,0 +1,52 @@
+table {
+    width: auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+}
+
+caption {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    caption-side: top;
+}
+
+th, td {
+    padding: 8px 4px;
+    text-align: left;
+    font-size: 12px;
+    width: 170px;
+    background-color: white;
+    color: blue;
+}
+
+th {
+    color: black;
+    font-weight: bold;
+    border: none; /* Quitar el borde en el encabezado */
+}
+
+td {
+    border: 1px solid black; /* Mantener el borde en las celdas del cuerpo */
+}
+
+
+tbody tr:nth-child(3) {
+    background-color: red; /* Aplica un fondo rojo a toda la tercera fila */
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+tfoot td {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    color: blue;
+    border: 1px solid black; /* Mantener el borde en el pie de la tabla */
+}
+.red {
+    background-color: red;
+    color: red;
+}
+
+

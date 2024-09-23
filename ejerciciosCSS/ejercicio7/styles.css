@@ -1,0 +1,16 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto; /* Centrar la tabla */
+}
+td, th {
+    border: 1px solid black;
+    width: 200px;
+}
+th {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+td:nth-child(2) {
+    text-align: center; /* Centrar la columna de temperatura */
+}

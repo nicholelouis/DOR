@@ -1,0 +1,10 @@
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto; /* Centrar la tabla */
+}
+td, th {
+    border: 1px solid black;
+    width: 200px;
+    text-align: left;
+}
