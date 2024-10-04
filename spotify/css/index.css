@@ -1,20 +1,31 @@
+/* Alineación general y centrado vertical de los elementos */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Flex para centrar todos los elementos horizontal y verticalmente */
 .flex {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative; /* Necesario para posicionar el vinilo relativo a la carátula */
 }
 
-/* Estilos de las portadas de los discos */
+/* Estilos de las carátulas de los discos */
 .cover {
     width: 200px;
     height: 200px;
     background-color: grey;
-    position: relative;
-    z-index: 2;
     background-size: cover;
+    z-index: 2; /* Las carátulas deben estar al frente */
 }
 
-/* Portadas de los discos con imágenes específicas */
+/* Carátulas de los discos con sus respectivas imágenes */
 .cover1 {
     background-image: url(../assets/imgs/cover1.jpeg);
 }
@@ -34,14 +45,12 @@
     border-radius: 50%;
     background-color: black;
     position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(-220px, 0); /* Aseguramos que esté fuera de vista inicialmente */
-    transition: transform 0.5s ease-in-out; /* Suaviza la transición al mostrarse */
-    z-index: 1; /* El disco está detrás de la portada */
+    right: -250px; /* Posicionado fuera del lado derecho inicialmente */
+    transition: right 0.5s ease-in-out; /* Suaviza la transición al mostrarse */
+    z-index: 1; /* El disco está detrás de la carátula */
 }
 
-/* Detalles del disco */
+/* Detalles del disco de vinilo */
 .detail {
     width: 130px;
     height: 130px;
@@ -63,7 +72,7 @@
     background-color: black;
 }
 
-/* Cuando la clase visible se añade, el disco aparece centrado */
+/* Cuando se añade la clase visible, el disco se mueve a la izquierda (apareciendo a la derecha de la carátula) */
 .visible {
-    transform: translate(0, 0);
+    right: 210px; /* Posición relativa al lado derecho de la carátula */
 }
