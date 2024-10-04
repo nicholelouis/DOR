@@ -1,0 +1,63 @@
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    
+    }
+    
+    .cover{
+        width: 200px;
+        height: 200px;
+        background-color: grey;
+    }
+    
+    .cover1{
+        background-image: url(../assets/imgs/cover1.jpeg);
+        background-size: cover;
+    }
+    
+    .cover2{
+        background-image: url(../assets/imgs/cover2.jpeg);
+        background-size: cover;
+    }
+    
+    .cover3{
+        background-image: url(../assets/imgs/cover3.png);
+        background-size: cover;
+    }
+    
+    .vinyl{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: black;
+        z-index: -1;
+        transform: translate(-200px);
+        transition: transform 0.5s ease;
+    }
+    
+    .detail{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background-color: plum;
+    }
+    
+    .label{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background-color: purple;
+    }
+    
+    .hole{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: black;
+    }
+    
+    .visible{
+        transform: translate(0);
+    }
