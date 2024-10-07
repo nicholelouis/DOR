@@ -1,0 +1,132 @@
+body {
+    background-image: url('/lol/assets/img/bg.jpeg');
+}
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    width: 800px; 
+    height: 600px;
+}
+
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-image: url('/lol/assets/img/bg_button3.avif');
+    border-radius: 8px;
+    border: none;
+    color: rgba(255, 255, 255, 0.79);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.80);
+    display: inline-block;
+    font-size: 30px;
+    font-family: Luminari, fantasy;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 1);
+}
+
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px 10px;
+    width: 100%;
+}
+
+.card {
+    width: 250px;              
+    height: 350px;             
+    background: linear-gradient(145deg, #1a1a1d, #0b0b0d); 
+    border-radius: 15px;       
+    border: 3px solid #d4af37; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);  
+    overflow: hidden;         
+    position: relative;       
+    padding: 20px;
+    text-align: center;
+    color: #d4af37;;
+    font-family: 'Cinzel', serif;
+}
+
+.card-image {                 
+    height: auto;                 
+    border-radius: 10px;         
+    object-fit: cover;  
+    width: 100%;           
+}
+
+.card:hover img {
+    display:none;
+}
+.card:hover h1 {
+    display:none;
+}
+
+.card:hover .types{
+    display:none;
+}
+
+.card .front {
+    display:none;
+}
+.card:hover .front {
+    display: inline-block;
+}
+.card:hover {
+    border: 3px solid #e5c100;
+    box-shadow: 0 15px 30px rgba(255, 255, 0, 0.6);
+    transition: 0.3s ease;    
+}
+
+.card .key {
+    display:none;
+}
+
+
+.types {
+    position: absolute;         
+    bottom: 0;                  
+    left: 0;
+    right: 0;
+    padding: 10px;
+    border-image: url(/lol/assets/img/bg_button3.avif);
+    font-family: 'Cinzel', serif;        
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-image: url(/lol/assets/img/bg_button3.avif);
+    text-align: center;        
+    color: white;    
+    height: 30px;  
+    font-size: 25px;  
+    color: black;  
+}
+
+.card-front {
+    background: url(/lol/assets/img/bg_button3.avif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;                 
+    border-radius: 10px;         
+    object-fit: cover;  
+    width: 100%;     
+    overflow: hidden; 
+    border-radius: 5px;
+    color: black;
+    padding: auto;
+}
+
+.back-content {
+    text-align: center; 
+    padding: 0px; 
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);;
+}
