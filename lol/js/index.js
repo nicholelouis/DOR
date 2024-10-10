@@ -54,7 +54,7 @@ const showWarriors = async () => {
                     <b>Difficulty</b>: ${allwarriors[i].difficulty}
                 </p>
             </div>
-            <div class="types">${allwarriors[i].partype}</div>
+            <div class="types">${warrior.partype}</div>
         </div>`;
 
     }
