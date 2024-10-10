@@ -44,6 +44,7 @@ body {
 .card {
   text-align: center;
   color: #d4af37;
+  text-shadow: 3px 3px 5px #b3a10580;
   background: linear-gradient(145deg, #1a1a1d, #0b0b0d);
   border: 5px ridge #d4af37;
   border-radius: 15px;
@@ -108,6 +109,7 @@ body {
 .types {
   text-align: center;
   color: #000;
+  text-shadow: 1px 1px 5px #00000080;
   background-color: #d4af37;
   background-image: url("bg_button3.116e66a7.avif");
   border-image: url("bg_button3.116e66a7.avif");
