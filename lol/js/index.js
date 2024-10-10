@@ -40,22 +40,22 @@ const showWarriors = async () => {
     container.innerHTML = ''; 
 
     for (let i = 0; i < allwarriors.length; i++) {
-container.innerHTML += `
-    <div class="card">
-        <img src="${allwarriors[i].img}" class="card-image" alt="${allwarriors[i].name}">
-        <h1><b>${allwarriors[i].name}</b></h1>
-        <div class="front card-back">
-            <h2 class="back-content">${allwarriors[i].title}</h2>
-            <p class="back-content">${allwarriors[i].intro}</p>
-            <p class="back-content">
-                <b>Attack</b>: ${allwarriors[i].attack}<br>
-                <b>Defense</b>: ${allwarriors[i].defense}<br>
-                <b>Magic</b>: ${allwarriors[i].magic}<br>
-                <b>Difficulty</b>: ${allwarriors[i].difficulty}
-            </p>
-        </div>
-        <div class="types">${allwarriors[i].partype}</div>
-    </div>`;
+        container.innerHTML += `
+        <div class="card">
+            <img src="${allwarriors[i].img}" class="card-image" alt="${allwarriors[i].name}">
+            <h1>${allwarriors[i].name}</h1>
+            <div class="front card-back">
+                <h2 class="back-content">${allwarriors[i].title}</h2>
+                <p class="back-content">${allwarriors[i].intro}</p>
+                <p class="back-content">
+                    <b>Attack</b>: ${allwarriors[i].attack}<br>
+                    <b>Defense</b>: ${allwarriors[i].defense}<br>
+                    <b>Magic</b>: ${allwarriors[i].magic}<br>
+                    <b>Difficulty</b>: ${allwarriors[i].difficulty}
+                </p>
+            </div>
+            <div class="types">${allwarriors[i].partype}</div>
+        </div>`;
 
     }
 };
