@@ -4,6 +4,12 @@ const button = document.querySelector("button");
 button.addEventListener("click", () => {
     document.querySelector('#button').style.visibility = 'hidden';
     document.querySelector('#cards').style.visibility = 'visible'; 
+    const logo = document.querySelector('#logo')
+
+    setTimeout(() => {
+        logo.style.width = '300px';
+        logo.style.height = '200px';
+    }, 5);
     startLol();
 });
 
@@ -42,19 +48,20 @@ const showWarriors = async () => {
     for (let i = 0; i < allwarriors.length; i++) {
 container.innerHTML += `
     <div class="card">
+    <div class = circle_attack><div class="attack">${allwarriors[i].attack}</div></div>
         <img src="${allwarriors[i].img}" class="card-image" alt="${allwarriors[i].name}">
         <h1><b>${allwarriors[i].name}</b></h1>
         <div class="front card-back">
             <h2 class="back-content">${allwarriors[i].title}</h2>
             <p class="back-content">${allwarriors[i].intro}</p>
             <p class="back-content">
-                <b>Attack</b>: ${allwarriors[i].attack}<br>
                 <b>Defense</b>: ${allwarriors[i].defense}<br>
                 <b>Magic</b>: ${allwarriors[i].magic}<br>
                 <b>Difficulty</b>: ${allwarriors[i].difficulty}
             </p>
         </div>
-        <div class="types">${allwarriors[i].partype}</div>
+        <div class="types"> 
+        ${allwarriors[i].partype}</div>
     </div>`;
 
     }
