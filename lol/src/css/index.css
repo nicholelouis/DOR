@@ -1,5 +1,6 @@
 body {
     background-image: url('../assets/img/bg.jpeg');
+    background-size: cover;
 }
 
 .header {
@@ -9,7 +10,7 @@ body {
 .logo {
     width: 800px; 
     height: 600px;
-    transition: width 0.5s ease, width 0.5s ease;
+    transition: width 0.5s ease, height 0.5s ease;
 }
 
 
@@ -181,4 +182,11 @@ body {
     padding: 0 auto; 
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
     font-size: 15px;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    position: sticky;
+    margin-top: 50px;
 }

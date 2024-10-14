@@ -1,5 +1,6 @@
 body {
   background-image: url("bg.e474a588.jpeg");
+  background-size: cover;
 }
 
 .header {
@@ -9,7 +10,7 @@ body {
 .logo {
   width: 800px;
   height: 600px;
-  transition: width .5s, width .5s;
+  transition: width .5s, height .5s;
 }
 
 .body {
@@ -145,5 +146,12 @@ body {
   text-shadow: 1px 1px 5px #00000080;
   padding: 0 auto;
   font-size: 15px;
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+  position: sticky;
 }
 /*# sourceMappingURL=index.3092e1e0.css.map */

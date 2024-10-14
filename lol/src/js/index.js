@@ -9,7 +9,7 @@ button.addEventListener("click", () => {
     setTimeout(() => {
         logo.style.width = '300px';
         logo.style.height = '200px';
-    }, 5);
+    }, 2);
     startLol();
 });
 
