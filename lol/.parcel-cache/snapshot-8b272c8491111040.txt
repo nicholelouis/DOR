@@ -1809,7 +1809,7 @@
 96/home/nikki/DAW2/DOR2/DOR/lol/node_modules/csso/node_modules/css-tree/cjs/parser/SyntaxError.cjs1728581837064485753 0
 86/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/transformer-js/lib/JSTransformer.js1728581836229483330 0
 83/home/nikki/DAW2/DOR2/DOR/lol/node_modules/lmdb/dependencies/lmdb-data-v1/libraries1728581836010482696 1
-53/home/nikki/DAW2/DOR2/DOR/lol/dist/index.3092e1e0.css1728933140048202168 0
+53/home/nikki/DAW2/DOR2/DOR/lol/dist/index.3092e1e0.css1728933480932694061 0
 62/home/nikki/DAW2/DOR2/DOR/lol/node_modules/escalade/index.d.ts1728581836259483418 0
 67/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@swc/types/tsconfig.json1728581836252483397 0
 108/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/optimizer-htmlnano/node_modules/svgo/plugins/prefixIds.js1728581836757484863 0
@@ -1907,7 +1907,7 @@
 113/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/optimizer-htmlnano/node_modules/svgo/plugins/collapseGroups.js1728581836464484013 0
 75/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@swc/helpers/_/_get_prototype_of1728581837099485855 1
 95/home/nikki/DAW2/DOR2/DOR/lol/node_modules/css-select/node_modules/entities/lib/decode.d.ts.map1728581836695484683 0
-57/home/nikki/DAW2/DOR2/DOR/lol/dist/index.3092e1e0.css.map1728933140053202138 0
+57/home/nikki/DAW2/DOR2/DOR/lol/dist/index.3092e1e0.css.map1728933480943693758 0
 100/home/nikki/DAW2/DOR2/DOR/lol/node_modules/css-select/node_modules/dom-serializer/lib/index.d.ts.map1728581836345483667 0
 93/home/nikki/DAW2/DOR2/DOR/lol/node_modules/css-select/node_modules/entities/lib/encode.js.map1728581836762484878 0
 97/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/optimizer-svgo/node_modules/svgo/lib/parser.js1728581836737484805 0
@@ -2168,17 +2168,17 @@
 128/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/definition-syntax/SyntaxError.js1728581837150486003 0
 64/home/nikki/DAW2/DOR2/DOR/lol/node_modules/cosmiconfig/README.md1728581836677484631 0
 66/home/nikki/DAW2/DOR2/DOR/lol/node_modules/css-select/package.json1728581836618484459 0
-51/home/nikki/DAW2/DOR2/DOR/lol/dist/bg.e474a588.jpeg1728932369295570963 0
+51/home/nikki/DAW2/DOR2/DOR/lol/dist/bg.e474a588.jpeg1728933480916694501 0
 69/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@trysound/sax/package.json1728581836156483119 0
 71/home/nikki/DAW2/DOR2/DOR/lol/node_modules/type-fest/source/opaque.d.ts1728581836458483995 0
 117/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/MediaQuery.js1728581837064485753 0
 97/home/nikki/DAW2/DOR2/DOR/lol/node_modules/css-select/node_modules/domutils/lib/querying.d.ts.map1728581836679484637 0
 40/home/nikki/DAW2/DOR2/DOR/lol/index.html1728933450888507266 0
 73/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@swc/helpers/cjs/_inherits.cjs1728581837487486980 0
-34/home/nikki/DAW2/DOR2/DOR/lol/dist1728933140053202138 1
+34/home/nikki/DAW2/DOR2/DOR/lol/dist1728933480953693483 1
 51/home/nikki/DAW2/DOR2/DOR/lol/node_modules/csso/lib1728581837020485626 1
 122/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/pseudo/nth-child.js1728581837072485776 0
-45/home/nikki/DAW2/DOR2/DOR/lol/dist/index.html1728932369352583122 0
+45/home/nikki/DAW2/DOR2/DOR/lol/dist/index.html1728933480911694639 0
 71/home/nikki/DAW2/DOR2/DOR/lol/node_modules/css-select/lib/esm/sort.d.ts1728581836907485298 0
 90/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/transformer-json/src/JSONTransformer.js1728581836168483154 0
 116/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/optimizer-svgo/node_modules/svgo/lib/svgo/css-select-adapter.d.ts1728581837029485652 0
@@ -2326,7 +2326,7 @@
 95/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/optimizer-htmlnano/node_modules/mdn-data/api1728581836441483946 1
 96/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/runtime-js/src/helpers/browser/html-loader.js1728581836495484103 0
 74/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/workers/src/cpuCount.js1728581836403483835 0
-56/home/nikki/DAW2/DOR2/DOR/lol/dist/index.739bf03c.js.map1728932369331578643 0
+56/home/nikki/DAW2/DOR2/DOR/lol/dist/index.739bf03c.js.map1728933480925694253 0
 89/home/nikki/DAW2/DOR2/DOR/lol/node_modules/caniuse-lite/data/features/link-rel-preload.js1728581837620487365 0
 78/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/utils/src/getModuleParts.js1728581836489484085 0
 64/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/codeframe/src1728581836867485182 1
@@ -2457,7 +2457,7 @@
 89/home/nikki/DAW2/DOR2/DOR/lol/node_modules/css-select/lib/esm/pseudo-selectors/index.d.ts1728581836896485266 0
 115/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/atrule/import.js1728581836982485516 0
 76/home/nikki/DAW2/DOR2/DOR/lol/node_modules/dom-serializer/lib/esm/index.d.ts1728581836393483806 0
-52/home/nikki/DAW2/DOR2/DOR/lol/dist/logo.7c849107.png1728932369364585682 0
+52/home/nikki/DAW2/DOR2/DOR/lol/dist/logo.7c849107.png1728933480943693758 0
 65/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/config-default1728581836172483165 1
 57/home/nikki/DAW2/DOR2/DOR/lol/node_modules/to-regex-range1728581836053482821 1
 70/home/nikki/DAW2/DOR2/DOR/lol/node_modules/svgo/plugins/_transforms.js1728581836887485240 0
@@ -3325,7 +3325,7 @@
 79/home/nikki/DAW2/DOR2/DOR/lol/node_modules/css-tree/lib/syntax/node/Operator.js1728581837376486657 0
 78/home/nikki/DAW2/DOR2/DOR/lol/node_modules/css-select/lib/esm/compile.d.ts.map1728581836698484692 0
 93/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/reporter-dev-server/src/templates/404.html1728581836172483165 0
-59/home/nikki/DAW2/DOR2/DOR/lol/dist/bg_button3.116e66a7.avif1728932369331578643 0
+59/home/nikki/DAW2/DOR2/DOR/lol/dist/bg_button3.116e66a7.avif1728933480901694914 0
 70/home/nikki/DAW2/DOR2/DOR/lol/node_modules/entities/lib/encode-trie.js1728581836311483569 0
 114/home/nikki/DAW2/DOR2/DOR/lol/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/tokenizer/const.js1728581836557484283 0
 61/home/nikki/DAW2/DOR2/DOR/lol/node_modules/nullthrows/LICENSE1728581836074482882 0
@@ -5676,7 +5676,7 @@
 94/home/nikki/DAW2/DOR2/DOR/lol/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb_dump.11728581836666484599 0
 92/home/nikki/DAW2/DOR2/DOR/lol/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/module.h1728581837204486159 0
 62/home/nikki/DAW2/DOR2/DOR/lol/node_modules/js-yaml/lib/type.js1728581836688484663 0
-52/home/nikki/DAW2/DOR2/DOR/lol/dist/index.739bf03c.js1728932369318575870 0
+52/home/nikki/DAW2/DOR2/DOR/lol/dist/index.739bf03c.js1728933480915694529 0
 94/home/nikki/DAW2/DOR2/DOR/lol/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb_stat.11728581836693484678 0
 59/home/nikki/DAW2/DOR2/DOR/lol/node_modules/semver/README.md1728581836720484756 0
 74/home/nikki/DAW2/DOR2/DOR/lol/node_modules/caniuse-lite/data/regions/SH.js1728581837796487875 0
