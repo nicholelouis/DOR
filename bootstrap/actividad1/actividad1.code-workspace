@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../2DAW/DOR/DORgit/DOR/bootstrap/actividad1"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Actividad Bootstrap"
+	}
+}
