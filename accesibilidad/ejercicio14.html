@@ -1,0 +1,44 @@
+<!--Ejercicio 14. Tabla de datos compleja-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reporte de Ventas</title>
+</head>
+<body>
+  <h1>Reporte Mensual de Ventas</h1>
+  <table border="1">
+    <caption>Ventas mensuales por producto</caption>
+    <thead>
+      <tr>
+        <th scope="col" aria-label="Nombre del producto">Producto</th>
+        <th scope="col" aria-label="Ventas del mes de enero">Enero</th>
+        <th scope="col" aria-label="Ventas del mes de febrero">Febrero</th>
+        <th scope="col" aria-label="Ventas del mes de marzo">Marzo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td aria-label="Ventas de zapatos en enero">Zapatos</td>
+        <td aria-label="Ventas de zapatos en enero: 100 unidades">100</td>
+        <td aria-label="Ventas de zapatos en febrero: 150 unidades">150</td>
+        <td aria-label="Ventas de zapatos en marzo: 200 unidades">200</td>
+      </tr>
+      <tr>
+        <td aria-label="Ventas de camisas en enero">Camisas</td>
+        <td aria-label="Ventas de camisas en enero: 200 unidades">200</td>
+        <td aria-label="Ventas de camisas en febrero: 250 unidades">250</td>
+        <td aria-label="Ventas de camisas en marzo: 300 unidades">300</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+<!--
+<caption>: Proporciona una descripción breve sobre la tabla.
+<th>: Los encabezados de la tabla.
+Uso de <thead> y <tbody>: Para separar las secciones de la tabla.
+scope="col" en <th>: indica que estos encabezados se aplican a las columnas.
+aria-label: Mejora el contexto y ayuda a la accesibilidad. 
+-->

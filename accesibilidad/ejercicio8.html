@@ -1,0 +1,50 @@
+<!--Ejercicio 8. Lista desplegable sin indicar su estado-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú</title>
+  <style>
+    .submenu {
+      display: none;
+    }
+    .menu:hover .submenu {
+      display: block;
+    }
+    .menu[aria-expanded="true"] .submenu {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Menú</h1>
+  <div class="menu" 
+       aria-haspopup="true" 
+       aria-expanded="false" 
+       tabindex="0" 
+       role="button" 
+       onclick="toggleSubmenu(this)">
+    Opciones
+    <div class="submenu" role="menu">
+      <p role="menuitem">Opción 1</p>
+      <p role="menuitem">Opción 2</p>
+    </div>
+  </div>
+
+  <script>
+    function toggleSubmenu(menu) {
+      const submenu = menu.querySelector('.submenu');
+      const isExpanded = menu.getAttribute('aria-expanded') === 'true';
+      menu.setAttribute('aria-expanded', !isExpanded);
+      submenu.style.display = isExpanded ? 'none' : 'block';
+    }
+  </script>
+</body>
+</html>
+<!--
+- Script: asegura que el estado del menú se actualice correctamente
+- aria-haspopup="true": Este atributo indica que el elemento (el menú) tiene un submenú
+- tabindex="0": Permite que el menú sea accesible mediante el teclado
+- aria-expanded="false": Indica el estado actual del submenú, si esta cerrado o desplegadpo
+-->

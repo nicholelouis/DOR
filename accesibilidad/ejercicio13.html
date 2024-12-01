@@ -1,0 +1,40 @@
+<!--Ejercicio 13. Formulario de inscripción -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Inscripción</title>
+</head>
+<body>
+  <h1>Formulario de Inscripción</h1>
+  <form>
+    <div>
+      <label for="nombre">Nombre completo</label>
+      <input type="text" id="nombre" placeholder="Nombre completo" required>
+    </div>
+    <div>
+      <label for="correo">Correo electrónico</label>
+      <input type="email" id="correo" placeholder="Correo electrónico" required>
+    </div>
+    <div>
+      <label for="pais">Seleccionar país</label>
+      <select id="pais" required>
+        <option value="">Seleccionar país</option>
+        <option value="mexico">México</option>
+        <option value="espana">España</option>
+        <option value="colombia">Colombia</option>
+      </select>
+    </div>
+    <div>
+      <button type="submit">Enviar</button>
+    </div>
+  </form>
+</body>
+</html>
+<!--
+Etiquetas <label>: Para cada campo de formulario, el atributo for de cada <label> se asocia con el id del campo correspondiente. facilitando asi la identificación del campo asociado y mejora la navegación en la página.
+required en los campos: Añadí el required a los campos de entrada para indicar que son obligatorios.
+Valor vacío en el <option> predeterminado:
+button type="submit": Para que se comporte como un botón de envío del formulario.
+-->

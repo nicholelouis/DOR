@@ -1,0 +1,27 @@
+<!--Ejercicio 6. Contenido dinámico sin notificación-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Notificaciones</title>
+  <script>
+    function mostrarNotificacion() {
+      const notificacion = document.getElementById('notificacion');
+      notificacion.innerText = 'Cambio guardado';
+      notificacion.setAttribute('aria-live', 'assertive');
+
+      notificacion.style.backgroundColor = 'yellow';
+      notificacion.style.color = 'black';
+      notificacion.style.border = '1px solid black'; 
+    }
+  </script>
+</head>
+<body>
+  <button onclick="mostrarNotificacion()">Guardar</button>
+  <div id="notificacion" role="status" aria-live="polite"></div>
+</body>
+</html>
+<!--
+aria-live: Se añade atributo.
+.style: para destacar la notificación.
+aria-live: para ser anunciada por los lectores de pantalla
+-->

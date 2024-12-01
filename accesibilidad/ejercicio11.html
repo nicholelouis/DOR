@@ -1,0 +1,40 @@
+<!--Ejercicio 11. Página web de un producto-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zapatos Deportivos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .precio {
+      font-size: 20px;
+      color: red;
+    }
+    .boton {
+      background-color: blue;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Zapatos Deportivos</h1>
+    <div>
+      <img src="zapatos.jpg" alt="Zapatos deportivos de color negro y rojo ideales para correr">
+      <p>Los mejores zapatos para correr.</p>
+      <p class="precio">Precio: $50</p>
+    </div>
+    <div class="boton" tabindex="0" aria-label="Añadir al carrito">Añadir al carrito</div>
+  </div>
+</body>
+</html>
+<!--
+<img alt="...">:El atributo alt a la etiqueta <img> describe la imagen 
+tabindex="0": Este atributo permite que el <div> sea enfocado y accesible mediante el teclado. Los usuarios pueden usar la tecla Tab para navegar hasta este elemento.
+aria-label="Añadir al carrito": Este atributo proporciona una descripción adicional que mejora la accesibilidad.
+-->

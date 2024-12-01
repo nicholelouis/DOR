@@ -1,0 +1,25 @@
+<!--Ejercicio 10. Página dinámica sin accesibilidad-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notificaciones</title>
+  <script>
+    function mostrarMensaje() {
+      document.getElementById('mensaje').innerText = '¡Nueva notificación!';
+    }
+  </script>
+</head>
+<body>
+  <h1>Página de Notificaciones</h1>
+  <button onclick="mostrarMensaje()">Mostrar Notificación</button>
+  <div id="mensaje" role="alert" aria-live="assertive" aria-atomic="true" style="display:none;"></div>
+</body>
+</html>
+
+  <!-- 
+role="alert": utilizado para notificaciones importantes o emergentes.
+aria-live="assertive": Este atributo le indica al lector de pantalla que debe interrumpir cualquier otra lectura de contenido para anunciar esta nueva notificación.
+aria-atomic="true": Este atributo garantiza que el lector de pantalla lea todo el contenido del div cuando el texto cambie
+-->

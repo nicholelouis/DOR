@@ -1,0 +1,38 @@
+<!--Ejercicio 15. Menú interactivo-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú Interactivo</title>
+  <style>
+    .submenu {
+      display: none;
+    }
+    .menu:hover .submenu, .menu:focus-within .submenu {
+      display: block;
+    }
+    .menu p {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Menú de Opciones</h1>
+  <div class="menu" role="menu" aria-label="Menú principal">
+    <p tabindex="0" aria-haspopup="true" aria-expanded="false" id="menu-toggle">Opciones</p>
+    <div class="submenu" role="menu" aria-labelledby="menu-toggle">
+      <p role="menuitem">Opción 1</p>
+      <p role="menuitem">Opción 2</p>
+      <p role="menuitem">Opción 3</p>
+    </div>
+  </div>
+</body>
+</html>
+<!--
+role="menu" y role="menuitem": indican que se trata de un menú.
+aria-haspopup="true": Indica que este elemento tiene un submenú.
+aria-expanded="false": Indica que el submenú está cerrado.
+display: non:  para ocultar el submenú por defecto.
+tabindex="0": Hacerlo accesible con el teclado.
+-->
